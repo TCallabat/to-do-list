@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  margin: 1rem auto 0;
+  width: 50rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  border-radius: 1rem;
+}
+
+#form {
+  margin: 1rem auto 0;
+  width: 40rem;
+  display: flex;
+}
+
+#input,
+#submit {
+  padding: 0 1rem;
+  font-size: 1.25rem;
+  height: 2rem;
+}
+
+#input {
+  border: 1px solid #E0E0E0;
+  width: 30rem;
+  border-radius: 0.25rem;
+}
+
+#submit {
+  background-color: #E0E0E0;
+  border: none;
+  width: 10rem;
+  border-radius: 0.25rem;
+}
+
+#list {
+  margin: 1rem auto 0;
+  width: 40rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  border-radius: 1rem;
+  background-color: #E0E0E0;
+  margin-top: 1rem;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  width: 40rem;
+  padding: 0;
+  display: flex;
+  height: 1.8rem;
+}
+
+.lbl_task {
+  width: 28rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.btn_task {
+  width: 12rem;
+}
+
+.btn_edit {
+  background-color: #ffff80;
+}
+.btn_current {
+  background-color: #80c080;
+}
+.btn_done {
+  background-color: #80c080;
+}
+.btn_delete {
+  background-color: #ff8080;
+}
+.btn_current,
+.btn_done,
+.btn_delete,
+.btn_edit {
+  margin: 0.1rem;
+  padding: 0;
+  border: 0px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  width: 2.8rem;
+  vertical-align: middle;
+  float: right;
+}
